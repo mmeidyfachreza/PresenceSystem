@@ -17,10 +17,10 @@
         "laravel/tinker": "^1.0",
         "pusher/pusher-php-server": "^4.1",
         "simplesoftwareio/simple-qrcode": "~2",
-        "spatie/laravel-activitylog": "^3.9"
+        "spatie/laravel-activitylog": "^3.9",
+        "symfony/dotenv": "^5.0"
     },
     "require-dev": {
-        "barryvdh/laravel-ide-helper": "^2.6",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
@@ -35,7 +35,8 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [
+            ]
         }
     },
     "autoload": {
