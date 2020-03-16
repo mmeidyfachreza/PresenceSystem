@@ -53,7 +53,7 @@ import { mapState,mapActions } from 'vuex'
 export default {
     data: function() {
         return {
-            qr: 'BMT00384',
+            qr: 'FTIK2015',
             show:true,
             loading: true,
         }
